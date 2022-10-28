@@ -1,0 +1,26 @@
+<div id="navbar">
+    <header>
+        <div id="main_logo">
+            <a href="{{ .Site.BaseURL }}">
+                <span>{{ .Site.Title }}</span>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li>
+                <div class="nav_element" aria-current="true">
+                    <div class="{{ if $currentPage.IsMenuCurrent "main" . }}nav_selected{{ end }}">
+                        <a class="hover:bg-gray-700 hover:text-gray-300" href="{{ .URL }}">
+                            {{ .Pre }}{{ .Name }}
+                        </a>
+                    </div>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+
+</div>

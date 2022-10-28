@@ -1,0 +1,214 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v30-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v30-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v30-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre {
+    margin:1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:14pt;
+    font-weight:700;
+}
+
+.group:hover .group-hover\:flex {
+    display: flex;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    line-height: normal;
+    background-color: #f5f5f5;
+}
+
+#main_logo a {
+    display: flex;
+    line-height: 1.4;
+    margin: 48px 32px 62px 48px;
+}
+
+#main_logo span {
+    font-family: "Roboto", Fallback, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+#navbar {
+    height: 100%;
+    display: flex;
+    background-color: rgba(79,71,78,1);
+    flex-direction: column;
+    width: 16rem;
+    position: fixed;
+}
+
+#navbar header {
+
+    flex-direction: column;
+    width: 16rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+
+}
+
+#navbar nav {
+    width: 16rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 700;
+}
+
+.nav_selected a {
+    border-bottom-width: 7px;
+    border-bottom-color: rgba(176,190,197,1);
+    border-bottom-style: solid;
+    white-space: normal;
+}
+
+.nav_element {
+    margin-top: 20px;
+    padding-left: 36px;
+    padding-right: 10px;
+}
+
+.nav_element div a {
+    margin-left: 4px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+main {
+    padding-left: 17rem;
+}
+
+#main_title h1 {
+    margin: 0;
+}
+
+#title h1 {
+    margin: 0;
+}
+
+div#title {
+    padding-top: 0.25rem;
+}
+
+div#main_title {
+    padding-top: 0.25rem;
+}
+
+main div.row {
+    display: flex;
+    #background-color: lightblue;
+    #align-items: center;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+div#main_title h1 {
+    font-size: 48pt;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+div#title h1 {
+    font-size: 48pt;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+section {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 40rem;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-variant: normal;
+    font-weight: 700;
+
+    font-size: 13pt;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-variant: normal;
+    font-weight: 700;
+
+    font-size: 11pt;
+}
+
+section p {
+    margin-top: 1rem;
+}
+
+section .content {
+
+}
+
+main .panel {
+
+}
+
+footer {
+    display: block;
+    padding-left: 17rem;
+    margin-top: 4rem;
+}
+
+.table-bordered table, th, td  {
+    border: 1px solid;
+
+}
+
+table.table td {
+    max-width: 12rem;
+}
+
+div.notification p {
+    font-weight: 700;
+}
+
+div.shoutbox {
+    background-color: red;
+}
