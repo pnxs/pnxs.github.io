@@ -1,0 +1,66 @@
+baseURL = 'https://aikido-in-hildesheim.de/'
+languageCode = 'de_DE'
+title = 'Aikido in Hildesheim'
+theme = 'aikido'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+[[menu.main]]
+name = "Verein"
+pageRef = "/"
+url = "/"
+weight = 100
+
+[[menu.main]]
+pageRef = "katori"
+name = "aikidô & tenshin shōden katori shintō ryū"
+url = "/katori"
+weight = 200
+
+[[menu.main]]
+pageRef = "media"
+name = "Bilder, Videos"
+url = "/media"
+weight = 300
+
+[[menu.main]]
+pageRef = "downloads"
+name = "Downloads"
+url = "/downloads"
+weight = 400
+
+[[menu.main]]
+pageRef = "netzwerk"
+name = "Netzwerk"
+url = "/netzwerk"
+weight = 500
+
+[[menu.main]]
+pageRef = "termine"
+name = "Seminare, Termine"
+url = "/termine"
+weight = 600
+
+[[menu.main]]
+pageRef = "unterrichtende"
+name = "Unterrichtende"
+url = "/unterrichtende"
+weight = 700
+
+[[menu.main]]
+pageRef = "zeiten"
+name = "Zeiten"
+url = "/zeiten"
+weight = 800
+
+[[menu.main]]
+pageRef = "impressum"
+name = "Impressum"
+url = "/impressum"
+weight = 900
+
+
