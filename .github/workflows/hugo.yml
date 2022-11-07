@@ -91,5 +91,5 @@ jobs:
           host: ${{ secrets.DEPLOY_SERVER }}
           username: ${{ secrets.DEPLOY_USER }}
           privateKey: ${{ secrets.DEPLOY_KEY }}
-          localDir: ./public
+          localDir: '.'
           remoteDir: ${{ secrets.DEPLOY_PATH }}
