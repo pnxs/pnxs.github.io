@@ -2,10 +2,6 @@
 title = "Zeiten"
 +++
 
-## ❗  Trainingszeiten während der Ferien (17.10.22 - 28.10.22)
-
-**montags & freitags** um 19-21 Uhr in der **Mauritiusschule**
-
 ## Trainingszeiten
 
 {{<table "table table-bordered">}}
