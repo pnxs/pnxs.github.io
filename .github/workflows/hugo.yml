@@ -82,6 +82,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: page
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: Deploy to Remote Server
         id: deployment
         uses: wangyucode/sftp-upload-action@v1.4.8
