@@ -84,10 +84,10 @@ jobs:
           name: page
       - name: Deploy to Remote Server
         id: deployment
-        uses: milanmk/actions-file-deployer@master
+        uses: wangyucode/sftp-upload-action@v1.4.8
         with:
-          remote-protocol: sftp
-          remote-host: ${{ secrets.DEPLOY_SERVER }}
-          remote-user: ${{ secrets.DEPLOY_USER }}
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
-          remote-path: ${{ secrets.DEPLOY_PATH }}
+          host: ${{ secrets.DEPLOY_SERVER }}
+          username: ${{ secrets.DEPLOY_USER }}
+          privateKey: ${{ secrets.DEPLOY_KEY }}
+          localDir: ./public
+          remoteDir: ${{ secrets.DEPLOY_PATH }}
