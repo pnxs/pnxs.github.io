@@ -4,12 +4,13 @@ title = "Seminare & Termine"
 
 ## Seminare in Hildesheim
 
-**10.-11.09.2022:** Lehrgang mit Ulf Rott *Shihan* (6. Dan Aikikai aus Leer) Ausschreibung
+**14.-15.01.2023:** Lehrgang mit Ulf Rott *Shihan* (6. Dan Aikikai aus Leer)
+
+**24.-26.02.2023:** Lehrgang mit Jörg Kretzschmar (5. Dan Aikikai aus Köln)
+
+**10.-11.06.2023:** Lehrgang mit Max Seinsch (5. Dan Aikikai aus Berlin)
 
 ## Weitere interessante Seminare
-
-**03.-07.08.2022:** Sommerlehrgang in Leer / Ostfriesland mit Ulf Rott Shihan (6. Dan Aikikai)
-      Nähere Informationen
 
 
 [Seminare von Endo Seishiro außerhalb Japans](http://homepage3.nifty.com/aikido_sakudojo/overseaseminar13-e.html)
