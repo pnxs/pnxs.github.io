@@ -93,3 +93,4 @@ jobs:
           privateKey: ${{ secrets.DEPLOY_KEY }}
           localDir: '.'
           remoteDir: ${{ secrets.DEPLOY_PATH }}
+          dryRun: false
